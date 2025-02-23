@@ -1,0 +1,21 @@
+.hover-tooltip {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(calc(100% + 10px));
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 1000;
+    min-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    font-size: 1.3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  
+  .tooltip-transcription { padding: 0 50px; }
+  
